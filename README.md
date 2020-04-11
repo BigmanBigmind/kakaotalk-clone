@@ -1,2 +1,3 @@
 # kakaotalk-clone
- cloning kakaotalk desktop version
+
+kakaotalk desktop version
