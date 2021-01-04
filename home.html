@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <link 
+            rel="shortcut icon" 
+            sizes="16x16 32x32 64x64" 
+            href="https://nomadcoders.co/m.png"
+        />
+        <title>Home - My first website</title>
+        <link href="styles.css" rel="stylesheet" /> <!-- CSS 파일 링크--> 
+        <style>
+            html{
+                background-color: tomato;
+            }
+            body{
+                background-color: thistle;
+            }
+            
+            h1 {
+                color: rgb(218, 98, 30);
+             /*   text-decoration: underline; */
+                font-weight: 900;
+                font-style: italic;
+                font-size: 50px;
+                
+            }  
+            address{
+                text-align: center;
+            }
+            div{    /* block 태그는 height , width 를 가질 수 있다, inline 은 없다*/
+                margin-left: 50px;
+                height: 150px;
+                width: 150px;
+                background-color: whitesmoke;
+
+            }
+            span{
+                display:block;
+                background-color: turquoise;
+            }
+        </style>
+        <meta name="description" content="This is website"/>
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <div></div>
+        <div></div>
+        <div></div>
+        <header>
+            <h1> My Web!!!!</h1>
+        </header>
+        <span>hihihi</span>
+        <span>ihihihi</span>
+        <main>
+            <address>123 Road Altavista</address>
+        </main>
+        <footer>
+            &copy; 2020 Kim.jw
+        </footer>
+        <form>
+            <div>
+                <label for="website">Web Site</label>
+                <input id="website" type="date" />
+            </div>
+            <div>
+                <label for="website">Web Site</label>
+                <input id="website" type="date" />
+            </div>
+<!--
+            <label for="profile">Profile Photo</label>
+            <input id="profile" type="text"/>
+            <input type="file" accept="image/*"/>
+            <label for="first-name">First Name</label>
+            <input id="first-name" placeholder="Name" type="text"/>
+            <input required placeholder="Last Name" type="text"/>
+            <input required placeholder="User Name" type="text"/>
+            <input required placeholder="Password" minlength="10" type="password"/>
+-->
+            <input type="submit" value="Create Account"/>
+
+
+        </form>
+        <h1>hello world!</h1>
+
+        <a href="http://www.google.com" target="_blank">Go to google.com</a>  <!-- href 속성은 <a> 태그에서만 작동함-->
+        <a href="http://www.google.com" target="_self">Go to google.com</a>  <!-- target 속성은_self는 자기가 바뀌고 _blank는 새탭에서 열림-->
+        <img 
+        src="https://imageresizer.static9.net.au/bbbmEpgnAFd30zwjy5ua_-7dvhU=/0x189:1080x999/396x0/https%3A%2F%2Fprod.static9.net.au%2Ffs%2F25a241b1-391b-466e-b6ed-6f1bc901f3fd"
+        />     <!-- img 태그는 self closing 태그 -->
+        <img src="hanamthehill.jpg"/>
+        <p>hi all</p>
+        <pre>hi all</pre>
+        <p>My name is  <abbr title="KIMJINWOO">kjw</abbr></p>
+        <p>I like to live in <sup>South Korea</sup></p>
+        <audio 
+        controls 
+        autoplay 
+        loop
+        src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3">
+        </audio>
+
+    </body>
+</html>
+
+<h1>hello world!</h1>
+<h2>hello world!</h2>
+<h3>hello world!</h3>
+<h4>hello world!</h4>
+
+<ol>
+    <li>beer</li>
+    <li>김치</li>
+    <li>meat</li>
+    <li>bread</li>
+</ol>
+
+<a href="http://www.google.com" target="_blank">Go to google.com</a>  <!-- href 속성은 <a> 태그에서만 작동함-->
+<a href="http://www.google.com" target="_self">Go to google.com</a>  <!-- target 속성은_self는 자기가 바뀌고 _blank는 새탭에서 열림-->
+<img 
+src="https://imageresizer.static9.net.au/bbbmEpgnAFd30zwjy5ua_-7dvhU=/0x189:1080x999/396x0/https%3A%2F%2Fprod.static9.net.au%2Ffs%2F25a241b1-391b-466e-b6ed-6f1bc901f3fd"
+/>     <!-- img 태그는 self closing 태그 -->
+<img src="hanamthehill.jpg"/>
